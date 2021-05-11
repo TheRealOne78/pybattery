@@ -12,6 +12,6 @@ Run the code with `python3 ./pybattery.py`.
 
 Note that you need to trigger usb debbuging in developer options in your phone if you want to experiment with this.
 
-In case you want to restore the battery level to normal, use `adb adb shell dumpsys battery restore` or just restart your phone.
+In case you want to restore the battery level to normal, use `adb shell dumpsys battery restore` or just restart your phone.
 
 <b>I am not responsible for any damage to your devices. Experiment with your own risk!</b>
