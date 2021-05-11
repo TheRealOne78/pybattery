@@ -14,4 +14,4 @@ Note that you need to trigger usb debbuging in developer options in your phone i
 
 In case you want to restore the battery level to normal, use `adb adb shell dumpsys battery restore` or just restart your phone.
 
-I am not responsible for any damage to your devices. Experiment with your own risk!
+<b>I am not responsible for any damage to your devices. Experiment with your own risk!</b>
