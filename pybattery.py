@@ -7,10 +7,12 @@ while True:
     while (i < 1000):
         n = str(i)
         os.system('adb shell dumpsys battery set level ' + n)
+        print('|>  ' + n + '%') 
         time.sleep(0.05)
         i = i + 1
     while (i > 2):
         n = str(i)
         os.system('adb shell dumpsys battery set level ' + n)
+        print('|>  ' + n + '%')
         time.sleep(0.05)
         i = i - 1
