@@ -4,7 +4,11 @@ A python code that will change your android phone battery level from 2-1000
 
 To use this, you need to have linux installed
 
-Install adb with `(sudo) apt install adb`. An internet connection is required.
+Install adb on: 
+debian based distros with `sudo apt install adb`. 
+arch based distros with `sudo pacman -S adb`.
+gentoo with `sudo emerge adb`.
+Internet connection is required for this.
 
 Install as well python3 to run this py file with `(sudo) apt install python3`. Again, an internet connection is required to install python3.
 
