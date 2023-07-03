@@ -65,4 +65,4 @@ while True:
         i = i + 1
     while (i > min_range):
         set_level()
-        k = i - 1
+        i = i - 1
