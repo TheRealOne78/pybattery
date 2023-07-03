@@ -31,7 +31,7 @@ In the Android device, `USB Debbuging` in Developer Options needs to be activate
 In **Linux** and **macOS** run the python file with `python3 ./pybattery.py`.
 In Windows double click pybattery.py to execute it via python.
 
-For restoring the battery level to normal, `adb shell dumpsys battery restore` needs to be executed or Android has to be rebooted.
+For restoring the battery level to normal, `adb shell dumpsys battery reset` needs to be executed or Android has to be rebooted.
 
 ### Disclaimer and License
 Copyright (C) 2022 TheRealOne78<br>
