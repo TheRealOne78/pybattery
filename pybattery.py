@@ -12,7 +12,7 @@ import signal     # import signal to handle signals
 ################################################################
 
 sleep = 0.05
-min_range = 2
+min_range = 2    # See warning message above!!!
 max_range = 1000
 i = min_range
 
