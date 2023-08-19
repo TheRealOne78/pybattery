@@ -7,7 +7,7 @@ A Python-based application that will change android device battery level, loopin
 #### [adb - Android Debug Bridge](https://developer.android.com/tools/adb)
 
 In **GNU/Linux** distributions, install `adb` on:
- - **Debian** based distros with `(sudo) apt install adb`
+ - **Debian** based distros with `(sudo) apt install adb android-sdk-platform-tools-common`
  - **Arch** based distros with `(sudo/doas) pacman -S android-tools`
  - **Gentoo** with `(sudo/doas) emerge dev-util/android-sdk-update-manager`<br>
 
